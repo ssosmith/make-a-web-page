@@ -1,0 +1,54 @@
+body {
+	padding: 20px 10px;
+	font-family: helvetica;
+	max-width: 2000px;
+	margin: 0 auto;
+	font-size: 1.4em;
+}
+h1 {
+	text-align: center;
+}
+.TOC {
+	background-color: burlywood;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+.TOC-lesson {
+	background-color: blanchedalmond;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+}
+h2 {
+	color: black;
+}
+ol {
+	background-color: blanchedalmond;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 10px;
+}
+li {
+	font-size: 20px;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	list-style-type: none;
+}
+
+.lesson {
+	background-color: burlywood;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+.notes {
+	background-color: blanchedalmond;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
