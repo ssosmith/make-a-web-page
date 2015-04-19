@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Steve's Notes, 1-3</title>
+  <link rel="stylesheet" type="text/css" href="stevesnotes.css">
+</head>
+<body>
+	<h1>Table of Contents</h1>
+	<div class="TOC" id="toc">
+	<h2>Lessons 1-3</h2>
+			<ol>
+			<li class="TOC-lesson"><a href="#lesson-1">Lesson 1: Basics of the Web</a>
+				<ul>
+					<li><a href="#lesson-1-1">The World Wide Web</a></li>
+					<li><a href="#lesson-1-2">HTML</a></li>
+					<li><a href="#lesson-1-3">Markup: Tags & Elements</a></li>
+					<li><a href="#lesson-1-4">Computer "Stupidity"</a></li>
+				</ul>
+			</li>
+			<li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Webpages, Documents, and Structure</a>
+				<ul>
+					<li><a href="#lesson-2-1">Webpages</a></li>
+					<li><a href="#lesson-2-2">HTML & CSS</a></li>
+					<li><a href="#lesson-2-3">Web Page Structure</a></li>
+					<li><a href="#lesson-2-4">Div Elements</a></li>
+				</ul>
+			</li>
+			<li class="TOC-lesson"><a href="#lesson-3">Lesson 3: CSS & the Box Model</a>
+				<ul>
+					<li><a href="#lesson-3-1">Cascading Style Sheets</a></li>
+					<li><a href="#lesson-3-2">The "Selector" in CSS</a></li>
+					<li><a href="#lesson-3-3">The Box Model</a></li>
+				</ul>
+			</li>
+			</ol>
+	</div>
+	<h1>Lesson Notes</h1>
+	<div class="lesson">
+  		<h2 id="lesson-1">Notes for Lesson 1: Basics of the Web</h2>
+  			<div class="notes" id="lesson-1-1">
+				<p>
+					<b>The World Wide Web</b> is a collection of html (hypertext markup language) documents. Hyperlinks connect the documents. Major components are a user's computer, the internet, and servers. A browser on the computer allows the user to interact with the internet. HTTP protocol allows the internet to communicate with servers. Here is a <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">video</a> on the subject from the lesson.
+				</p>
+			</div>
+			<div class="notes" id="lesson-1-2">
+				<p>
+					<b>HTML</b> is made up of text content (what you see), markup (what it looks like), other documents (e.g. images & videos), and links to other pages. Here is another <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">video</a> on HTML from the lesson.
+				</p>
+			</div>
+			<div class="notes" id="lesson-1-3">
+				<p>
+					<b>Markup</b> is made up of "tags"(opening and closing), and "elements" are strings of tagged content. Content includes attributes, and each attribute has a "value." For instance, anchor tags are for making links. Image tags are for displaying images. Images don't have closing tags. A "void tag" has no content. Some tags, such as span, are inline; others, such as div, are block. These are container elements, and their purpose is to contain content inside themeselves. This is yet another <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">video</a> from the lesson, on tags and elements. Create modest html documents with <a href="http://scratchpad.io/">Scratchpad</a>.
+				</p>
+			</div>
+			<div class="notes" id="lesson-1-4">
+				<p>
+					<b>The "stupidity" of computers</b> consists in their literal interpretation of commands and data. Unlike human beings, they cannot grasp nuance, nor can they intuit an intention or range of possible intentions behind a programmer's command. This makes even the most simple of programming mistakes (ie, a modest typographical error in an html tag) enough to make an entire process malfunction.
+				</p>
+			</div>
+	</div>
+	<div class="lesson">
+  		<h2 id="lesson-2">Notes for Lesson 2: Webpages, Documents, and Structure</h2>
+    		<div class="notes" id="lesson-2-1">
+    			<p>
+    				<b>Webpages</b> are like a house. The structure (html) consists of the foundation and walls, style (css) consists of color and decor, components (javascript) consist of interactive devices (ie, a TV remote or garage door opener) that control things within the structure.
+    			</p>
+			</div>
+    		<div class="notes" id="lesson-2-2">
+    			<p>
+    				<b>HTML and CSS</b> are both "languages." HTML controls the "structure" of a web page. CSS controls the "style" of a page (how it looks). When programmers talk about the "DOM" (Document Object Model) they are talking about the tree-like structure of a page.
+    			</p>
+			</div>
+    		<div class="notes" id="lesson-2-3">
+    			<p>
+    				<b>Web page structure</b> consists of boxes. Boxification is the process of determining quantity and placement of div elements.
+    			</p>
+			</div>
+    		<div class="notes" id="lesson-2-4">
+    			<p>
+    				<b>Div elements</b> should be given "class" attributes for the purpose of applying style later. The class attribute should be descriptive and should make sense. The boxification portion of the lesson starts with this <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/e-2672258561/m-2600669133">video</a>.
+    			</p>
+			</div>
+	</div>
+   	<div class="lesson">
+  		<h2 id="lesson-3">Notes for Lesson 3: CSS & the Box Model</h2>
+  			<div class="notes" id="lesson-3-1">
+  				<p>
+  					<b>CSS stands for "Cascading Style Sheets."</b> It is code written to control the "style" of HTML elements. The "C" is the most important part of this phrase because "Cascading" signifies the function of how style rules will apply to every succeeding element in the DOM unless the rules are overwritten at the element level. The principle that governs this cascading action is "Inheritance," the "mechanism by which properties are applied not ony to a specified element, but also to its descendents" (from the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">Wikipedia</a> page on CSS). Inheritance contributes to efficiency in programming because it makes it possible to <b>avoid repetition</b>. An html document might contain numerous instances of the same class, and it would be prohibitively time-consuming to have to stylize each separately. Cascading also optimizes efficiency with page-loading time and bandwidth.
+  				</p>
+			</div>
+    		<div class="notes" id="lesson-3-2">
+    			<p>
+    				<b>The "selector"</b> in CSS corresponds to named tags (such as an "h1" font identifier, or a "description" class id) in the html and governs their appearance. Add style with an attribute, followed by a colon, followed by a value. Declarations, properties, and values exist within the curly brackets {} in the CSS element and act as a rule for every instance of the selector in the html DOM. See Andy's <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3575138706/m-3628708672">demos</a> for good examples.
+    			</p>
+			</div>
+    		<div class="notes" id="lesson-3-3">
+    			<p>
+    				<b>The Box Model:</b> margin, border, padding, content.  Content is the nucleus, protected by the rest of the elements to prevent other content from encroaching on it. Padding clears the area around the content and is affected by the background color of the box. It is the space inside the box that protects the content directly. Border goes around padding. The outer layer is margin, and has no background color. Box sizes can be specified by pixels or percentages. The process of "Code, Test, and Refine" can be broken down into the following steps for front-end development: 1) Look for natural boxes; 2) Look for repeated styles & semantic elements; 3) Write your html; 4) Apply styles (from Biggest to smallest); and 5) Fix things.
+			</div>
+	</div>
+	<div class="TOC-return">
+		<p>Return to <a href="#toc">Table of Contents</a>
+	</div>
+</body>
+</html>
